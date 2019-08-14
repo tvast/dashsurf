@@ -5,9 +5,20 @@ import Vue from 'vue'
 //import the App component
 import App from './App'
 //import the vue router
+
 import VueRouter from 'vue-router'
 //tell vue to use the router
+
+import BootstrapVue from 'bootstrap-vue'
+
+
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(VueRouter)
+
+Vue.use(BootstrapVue)
+
 //import the hello component
 import Hello from './components/Hello'
 //define your routes
