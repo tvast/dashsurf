@@ -23,12 +23,15 @@ Vue.use(BootstrapVue)
 import Hello from './components/Hello'
 //define your routes
 import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Card from './components/Card';
 //define your routes
 const routes = [
 //route for the home route of the web page
 { path: '/', component: Hello },
 //route for the about route of the web page
-{ path: '/about', component: About }
+{ path: '/about', component: About },
+{ path: '/portfolio', component: Portfolio }
 ]
 // Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's
